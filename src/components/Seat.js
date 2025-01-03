@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSpring, animated } from 'react-spring/three';
+import { useSpring, animated } from '@react-spring/three';
 import * as THREE from 'three';
 import { Text } from '@react-three/drei';
 
