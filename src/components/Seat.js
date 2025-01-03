@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring/three';
 import * as THREE from 'three';
+import { Text } from '@react-three/drei';
 
 const Seat = ({ position, seatNumber, onViewFromSeat }) => {
   const [isSelected, setIsSelected] = useState(false);
@@ -41,6 +42,18 @@ const Seat = ({ position, seatNumber, onViewFromSeat }) => {
         setIsHovered(false);
       }}
     >
+      {/* Koltuk numarası - arkalıkta */}
+      <Text
+        position={[0, 0.8, -0.41]}
+        rotation={[0, Math.PI, 0]}
+        fontSize={0.2}
+        color="#ffffff"
+        anchorX="center"
+        anchorY="middle"
+      >
+        {seatNumber}
+      </Text>
+
       {/* Koltuk oturma kısmı */}
       <mesh position={[0, 0.3, 0]}>
         <boxGeometry args={[0.8, 0.1, 0.8]} />
