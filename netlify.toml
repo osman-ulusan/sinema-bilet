@@ -1,7 +1,7 @@
 [build]
-  command = "npm install copy-descriptor object-copy --legacy-peer-deps && CI=false npm run build"
+  command = "npm install aggregate-error p-map cacache terser-webpack-plugin@4.2.3 copy-descriptor object-copy --legacy-peer-deps && CI=false npm run build"
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "16.14.0"
+  NODE_VERSION = "14.21.3"
   NPM_FLAGS = "--legacy-peer-deps --force" 
