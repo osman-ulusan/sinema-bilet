@@ -1,7 +1,7 @@
 [build]
-  command = "export NODE_OPTIONS=--openssl-legacy-provider && CI=false npm run build"
+  command = "CI=false npm run build"
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "16.20.0"
+  NODE_VERSION = "14.21.3"
   NPM_FLAGS = "--legacy-peer-deps" 
