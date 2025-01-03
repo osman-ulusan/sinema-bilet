@@ -1,7 +1,7 @@
 [build]
-  command = "CI=false npm run build"
+  command = "export NODE_OPTIONS=--max_old_space_size=4096 && CI=false npm run build"
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "14.21.3"
-  NPM_FLAGS = "--legacy-peer-deps" 
+  NODE_VERSION = "16.14.0"
+  NPM_FLAGS = "--legacy-peer-deps --force" 
