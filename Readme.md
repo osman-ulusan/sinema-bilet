@@ -91,6 +91,8 @@ Projenin geliştirilmesi devam etmektedir. Gelecekte eklenmesi planlanan özelli
 
 Proje ile ilgili öneri veya katkılarınız için benimle iletişime geçmekten çekinmeyin!
 
+---
+
 ## **Kurulum**
 
 ### **Gerekli Bağımlılıklar:**
@@ -103,18 +105,25 @@ Proje ile ilgili öneri veya katkılarınız için benimle iletişime geçmekten
    ```bash
    git clone <repository-url>
 
-# Frontend için:
-  ```bash
-  cd frontend
-  npm install
-  npm start
+2. Frontend dizinine gidin:
+
+cd frontend
+
+3. Gerekli bağımlılıkları yükleyin:
+
+npm install
+
+4. Uygulamayı başlatın:
+
+npm start
+
+---
 
 ## **Katkı**
 
 Projeye katkıda bulunmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Bu depoyu fork edin:
-   ```bash
    git clone <repository-url>
 2. git checkout -b feature/yeniozellik
 3. git add .
