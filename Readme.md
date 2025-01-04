@@ -1,5 +1,10 @@
 # **Görüş Açısı Deneyimi ile Bilet Satın Alma Platformu**
 
+## **Demo**
+
+Projenin canlı demosuna aşağıdaki bağlantıdan ulaşabilirsiniz:  
+[**Demo için tıklayın**](https://biletal3d.netlify.app/)
+
 Bu proje, kullanıcıların sinema, tiyatro, konser, futbol, basketbol ve benzeri organizasyonlar için satın aldıkları biletlerde, gerçekçi bir 3D deneyim ile oturacakları koltuğun veya yerin görüş açısını önceden görmelerini sağlamayı amaçlamaktadır.
 
 ---
