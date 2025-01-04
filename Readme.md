@@ -106,16 +106,16 @@ Proje ile ilgili öneri veya katkılarınız için benimle iletişime geçmekten
    git clone <repository-url>
 
 2. Frontend dizinine gidin:
-
-cd frontend
+   ```bash
+   cd frontend
 
 3. Gerekli bağımlılıkları yükleyin:
-
-npm install
+   ```bash
+   npm install
 
 4. Uygulamayı başlatın:
-
-npm start
+   ```bash
+   npm start
 
 ---
 
@@ -124,8 +124,13 @@ npm start
 Projeye katkıda bulunmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Bu depoyu fork edin:
+   ```bash
    git clone <repository-url>
-2. git checkout -b feature/yeniozellik
-3. git add .
-4. git commit -m "Yeni özellik eklendi"
-5. git push origin feature/yeniozellik
+2. ```bash
+   git checkout -b feature/yeniozellik
+3. ```bash
+   git add .
+4. ```bash
+   git commit -m "Yeni özellik eklendi"
+5. ```bash
+   git push origin feature/yeniozellik
