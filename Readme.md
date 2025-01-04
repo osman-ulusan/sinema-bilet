@@ -40,7 +40,7 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 - Three.js (3D modelleme ve görselleştirme)  
 
 ### **Backend:**
-- .NET Core API  
+- .NET Core API 
 
 ### **Veritabanı:**
 - PostgreSQL / MSSQL  
@@ -68,29 +68,46 @@ Projenin canlı demosuna aşağıdaki bağlantıdan ulaşabilirsiniz:
 
 Bu demoda sinema salonu örnek alınmıştır. Kişisel görünüme geçmek için seçilen koltuk üzerinde çıkan sarı işarete tıklayın.
 
+## **Yapılacaklar**
+
+Projenin geliştirilmesi devam etmektedir. Gelecekte eklenmesi planlanan özellikler ve yapılacaklar:
+
+- **Backend Entegrasyonu:**  
+  - Kullanıcı verilerinin saklanması ve yönetimi.  
+  - Bilet satın alma API'lerinin geliştirilmesi.  
+  - Etkinlik bilgilerinin dinamik olarak sunulması.  
+
+- **Docker Desteği:**  
+  - Docker Compose ile frontend ve backend servislerinin konteynerize edilmesi.  
+
+- **Gelişmiş Özellikler:**  
+  - Kullanıcı kayıt ve giriş sistemi.  
+  - 3D model yükleme ve yönetim araçları.  
+  - Farklı organizasyon türleri için özelleştirilmiş görseller.
+
+- **Testler ve Optimizasyon:**  
+  - Otomatik testler için altyapı kurulumu.  
+  - Performans optimizasyonları.  
+
+Proje ile ilgili öneri veya katkılarınız için benimle iletişime geçmekten çekinmeyin!
+
 ## **Kurulum**
 
 ### **Gerekli Bağımlılıklar:**
 - Node.js  
-- .NET SDK  
-- Docker  
+- React  
 
 ### **Adımlar:**
 
 1. Projeyi klonlayın:
    ```bash
    git clone <repository-url>
-   
-2. docker-compose up
 
 # Frontend için:
-cd frontend
-npm install
-npm start
-
-# Backend için:
-cd backend
-dotnet run
+  ```bash
+  cd frontend
+  npm install
+  npm start
 
 ## **Katkı**
 
